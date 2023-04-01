@@ -3,15 +3,10 @@
   "version": "1.33.2",
   "description": "A ChatGPT implementation using the official ChatGPT model via OpenAI's API.",
   "main": "index.js",
-  "bin": {
-    "chatgpt-api": "server.js",
-    "chatgpt-cli": "bin/cli.js"
-  },
   "scripts": {
     "test": "npx eslint .",
     "start": "node server.js",
-    "server": "node server.js",
-    "cli": "node bin/cli.js"
+    "server": "node server.js"
   },
   "author": "waylaidwanderer",
   "license": "MIT",
