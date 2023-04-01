@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/9090e1dc-f5cd-4532-97bc-d5451f735135/resourceGroups/qika-chatgpt_group/providers/Microsoft.Web/sites/qika-chatgpt",
+    "appService.deploySubpath": "."
+}

@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "npx eslint .",
-    "start": "node bin/server.js",
-    "server": "node bin/server.js",
+    "start": "node server.js",
+    "server": "node server.js",
     "cli": "node bin/cli.js"
   },
   "author": "waylaidwanderer",

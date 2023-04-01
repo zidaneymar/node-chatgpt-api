@@ -5,9 +5,9 @@ import { FastifySSEPlugin } from '@waylaidwanderer/fastify-sse-v2';
 import fs from 'fs';
 import { pathToFileURL } from 'url';
 import { KeyvFile } from 'keyv-file';
-import ChatGPTClient from '../src/ChatGPTClient.js';
-import ChatGPTBrowserClient from '../src/ChatGPTBrowserClient.js';
-import BingAIClient from '../src/BingAIClient.js';
+import ChatGPTClient from './src/ChatGPTClient.js';
+import ChatGPTBrowserClient from './src/ChatGPTBrowserClient.js';
+import BingAIClient from './src/BingAIClient.js';
 
 const arg = process.argv.find(_arg => _arg.startsWith('--settings'));
 const path = arg?.split('=')[1] ?? './settings.js';
@@ -49,7 +49,7 @@ await server.register(cors, {
     origin: '*',
 });
 
-server.get('/ping', () => Date.now().toString());
+server.get('/', () => Date.now().toString());
 
 server.post('/conversation', async (request, reply) => {
     const body = request.body || {};
