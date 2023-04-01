@@ -3,7 +3,7 @@ import { KeyvFile } from 'keyv-file';
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
 import fs from 'fs';
-import { BingAIClient } from '../index.js';
+import { BingAIClient } from '../test.js';
 
 // eslint-disable-next-line no-underscore-dangle
 const __filename = fileURLToPath(import.meta.url);

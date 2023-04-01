@@ -1,5 +1,5 @@
 // import { ChatGPTBrowserClient } from '@waylaidwanderer/chatgpt-api';
-import { ChatGPTBrowserClient } from '../index.js';
+import { ChatGPTBrowserClient } from '../test.js';
 
 const clientOptions = {
     // (Optional) Support for a reverse proxy for the completions endpoint (private API server).

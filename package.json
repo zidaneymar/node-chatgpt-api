@@ -4,7 +4,7 @@
   "description": "A ChatGPT implementation using the official ChatGPT model via OpenAI's API.",
   "main": "index.js",
   "bin": {
-    "chatgpt-api": "bin/server.js",
+    "chatgpt-api": "server.js",
     "chatgpt-cli": "bin/cli.js"
   },
   "scripts": {
